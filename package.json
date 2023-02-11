@@ -1,0 +1,46 @@
+{
+  "name": "@schuijers/commitlint-config",
+  "version": "0.0.0",
+  "description": "Commitlint config according to schuijers' personal preference.",
+  "license": "MIT",
+  "author": "Martijn Schuijers",
+  "homepage": "https://github.com/schuijers/commitlint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schuijers/commitlint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/schuijers/commitlint-config/issues"
+  },
+  "main": "index.js",
+  "files": [],
+  "scripts": {
+    "changeset": "changeset",
+    "format": "prettier --check \"**/*.{js,json}\"",
+    "lint": "eslint --ignore-path .gitignore .",
+    "release": "changeset publish"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.4.2"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^16.0.0"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.0",
+    "@commitlint/cli": "^17.4.2",
+    "@schuijers/eslint-config": "^1.3.0",
+    "@schuijers/prettier-config": "^1.4.0",
+    "eslint": "^8.34.0",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.4"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlint-config",
+    "config",
+    "schuijers",
+    "styleguide"
+  ]
+}

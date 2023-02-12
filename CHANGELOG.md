@@ -1,5 +1,13 @@
 # @schuijers/commitlint-config
 
+## 0.2.0
+
+### Minor Changes
+
+- [#5](https://github.com/schuijers/commitlint-config/pull/5)
+  [`037945f`](https://github.com/schuijers/commitlint-config/commit/037945f6453d838ec8fcf7766a74be94d9cc8ea6)
+  Thanks [@schuijers](https://github.com/schuijers)! - Set correct `peerDependencies`
+
 ## 0.1.1
 
 ### Patch Changes

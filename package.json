@@ -13,7 +13,9 @@
     "url": "https://github.com/schuijers/commitlint-config/issues"
   },
   "main": "index.js",
-  "files": [],
+  "files": [
+    "commitlint.config.js"
+  ],
   "scripts": {
     "changeset": "changeset",
     "format": "prettier --check \"**/*.{js,json}\"",

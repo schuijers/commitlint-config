@@ -15,6 +15,9 @@ yarn add --dev @schuijers/commitlint-config
 pnpm add --save-dev @schuijers/commitlint-config
 ```
 
+This library has a required `peerDependencies` listing for
+[`@commitlint/cli`](https://commitlint.js.org/).
+
 ## Usage
 
 Reference `@schuijers/commitlint-config` in your `commitlint.config.js`.

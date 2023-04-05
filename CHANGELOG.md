@@ -1,5 +1,12 @@
 # @schuijers/commitlint-config
 
+## 0.3.0
+
+### Minor Changes
+
+- [`dab0a0d`](https://github.com/schuijers/commitlint-config/commit/dab0a0d93c1b73e1d82921e8466f6ac12ac143a5)
+  Thanks [@schuijers](https://github.com/schuijers)! - Updated dependencies
+
 ## 0.2.0
 
 ### Minor Changes

@@ -22,7 +22,7 @@
     "release": "changeset publish"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^17.4.4"
+    "@commitlint/config-conventional": "^17.6.1"
   },
   "peerDependencies": {
     "@commitlint/cli": "^17.0.0"
@@ -30,10 +30,10 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
     "@changesets/cli": "^2.26.1",
-    "@commitlint/cli": "^17.5.1",
+    "@commitlint/cli": "^17.6.1",
     "@schuijers/prettier-config": "^1.5.0",
     "husky": "^8.0.3",
-    "prettier": "^2.8.7"
+    "prettier": "^2.8.8"
   },
   "keywords": [
     "commitlint",

@@ -1,5 +1,12 @@
 # @schuijers/commitlint-config
 
+## 0.4.0
+
+### Minor Changes
+
+- [`089c778`](https://github.com/schuijers/commitlint-config/commit/089c778da9c27a6063d0ec54ba1a3fc84245e472)
+  Thanks [@schuijers](https://github.com/schuijers)! - Updated dependencies
+
 ## 0.3.0
 
 ### Minor Changes

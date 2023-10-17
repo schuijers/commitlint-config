@@ -1,5 +1,19 @@
 # @schuijers/commitlint-config
 
+## 1.0.0
+
+### Major Changes
+
+- [#9](https://github.com/schuijers/commitlint-config/pull/9)
+  [`724bd67`](https://github.com/schuijers/commitlint-config/commit/724bd6734e47f788ace8a66a9bb1b9fd49668cdb)
+  Thanks [@schuijers](https://github.com/schuijers)! - Move to ES modules
+
+### Minor Changes
+
+- [#9](https://github.com/schuijers/commitlint-config/pull/9)
+  [`587bccd`](https://github.com/schuijers/commitlint-config/commit/587bccdbfe626334daf05746a30fa5c1e2e908cc)
+  Thanks [@schuijers](https://github.com/schuijers)! - Update dependencies
+
 ## 0.4.0
 
 ### Minor Changes

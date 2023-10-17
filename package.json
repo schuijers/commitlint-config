@@ -12,6 +12,7 @@
   "bugs": {
     "url": "https://github.com/schuijers/commitlint-config/issues"
   },
+  "type": "module",
   "main": "index.js",
   "files": [
     "commitlint.config.js"
@@ -22,18 +23,19 @@
     "release": "changeset publish"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^17.6.1"
+    "@commitlint/config-conventional": "^17.8.0"
   },
   "peerDependencies": {
     "@commitlint/cli": "^17.0.0"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
-    "@changesets/cli": "^2.26.1",
-    "@commitlint/cli": "^17.6.1",
-    "@schuijers/prettier-config": "^1.5.0",
+    "@changesets/cli": "^2.26.2",
+    "@commitlint/cli": "^17.8.0",
+    "@commitlint/types": "^17.4.4",
+    "@schuijers/prettier-config": "^2.0.1",
     "husky": "^8.0.3",
-    "prettier": "^2.8.8"
+    "prettier": "^3.0.3"
   },
   "keywords": [
     "commitlint",

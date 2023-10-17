@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🛑 Cancel previous runs
-        uses: styfle/cancel-workflow-action@0.11.0
+        uses: styfle/cancel-workflow-action@0.12.0
 
       - name: ⬇️ Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           # This makes action fetch all Git history so that Changesets can generate changelogs with the correct commits
           fetch-depth: 0
@@ -20,7 +20,7 @@ jobs:
       - name: ⎔ Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 18.16.0
+          node-version: 18.18.2
 
       - name: 📥 Download deps
         uses: bahmutov/npm-install@v1

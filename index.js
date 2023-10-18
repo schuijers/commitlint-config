@@ -1,1 +1,1 @@
-module.exports = require('./commitlint.config.js')
+export { default } from './commitlint.config.js'

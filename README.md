@@ -26,7 +26,7 @@ Reference `@schuijers/commitlint-config` in your `commitlint.config.js`.
 ```javascript
 /** @type {import("@commitlint/types").UserConfig} */
 const config = {
-  extends: ['@commitlint/config-conventional'],
+  extends: ['@schuijers/commitlint-config'],
   rules: {
     // your overrides
   },

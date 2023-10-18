@@ -24,12 +24,15 @@ Reference `@schuijers/commitlint-config` in your `commitlint.config.js`.
 
 <!-- prettier-ignore -->
 ```javascript
-module.exports = {
-  extends: '@schuijers/commitlint-config',
+/** @type {import("@commitlint/types").UserConfig} */
+const config = {
+  extends: ['@commitlint/config-conventional'],
   rules: {
     // your overrides
   },
 }
+
+export default config
 ```
 
 Or, you can use it in other ways as described in the

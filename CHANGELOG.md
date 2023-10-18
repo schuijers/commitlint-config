@@ -1,5 +1,13 @@
 # @schuijers/commitlint-config
 
+## 1.0.1
+
+### Patch Changes
+
+- [#11](https://github.com/schuijers/commitlint-config/pull/11)
+  [`5a4f7a4`](https://github.com/schuijers/commitlint-config/commit/5a4f7a47d02a7bd584294e51c322d25a27bfad57)
+  Thanks [@schuijers](https://github.com/schuijers)! - Fixed export in `index.js`
+
 ## 1.0.0
 
 ### Major Changes
